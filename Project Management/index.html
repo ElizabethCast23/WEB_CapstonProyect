@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smarket</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Logo.png" alt="Smarket Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Groceries</a></li>
+                <li><a href="#">Cleaning</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>SMART SHOPPING SAVINGS</h1>
+                <p>Smarket: The intelligent market that recommends what and when to buy.</p>
+                <button onclick="shopNow()">Shop Now</button>
+            </div>
+            <div class="login-box">
+                <h2>¡Buy smarter!</h2>
+                <p>Log in to access our smart suggestions. We are ready to help you!</p>
+                <form>
+                    <input type="text" placeholder="User" id="user">
+                    <input type="password" placeholder="Password" id="password">
+                    <button type="button" onclick="logIn()">Log In</button>
+                </form>
+                <p>Still not shopping smart? <a href="#">Register</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
